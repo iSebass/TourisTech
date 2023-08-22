@@ -4,18 +4,25 @@ from bme680 import *
 from TuristProject import *
 from ESP_Connection import *
 
-
-
-
 list_relay_connection = [14,27,26,25,33,32]
+
+RELAY1=0
+RELAY2=1
+RELAY3=2
+RELAY4=3
+RELAY5=4
+RELAY6=5
 
 MY_SSID  = getSSID()
 MY_PASS  = getPASS()
 MY_TOKEN = getToken()
 
+time_to_send = 3000
+
 
 def run():
-    
+    global time_to_send
+    counter_sample = 0
     wifi = ESP_Connect(SSID=MY_SSID, PASS= MY_PASS)
     wifi.connect_ubidots(MY_TOKEN)
     
@@ -28,8 +35,9 @@ def run():
     relays = RELAY(list_relays =list_relay_connection )
     buzzer = BUZZER(pin_buzzer=12)
     
-    #buzzer.play_buzzer(5)
-    
+    buzzer.play_buzzer(5)
+    relays.set_relay(RELAY1)
+    relays.set_relay(RELAY4)
     while True:
         
         
@@ -45,10 +53,13 @@ def run():
         pres = bme.pressure
         gas  = bme.gas
         
-        wifi.publish_ubidots(typeVar="Temperature",value=temp,context="AulaSteam")
-        wifi.publish_ubidots(typeVar="Humidity",value=hum,context="AulaSteam")
-        wifi.publish_ubidots(typeVar="Pressure",value=pres,context="AulaSteam")
-        wifi.publish_ubidots(typeVar="Gas",value=gas,context="AulaSteam")
+        if counter_sample == time_to_send:
+            wifi.publish_ubidots(typeVar="Temperature",value=temp,context="AulaSteam")
+            wifi.publish_ubidots(typeVar="Humidity",value=hum,context="AulaSteam")
+            wifi.publish_ubidots(typeVar="Pressure",value=pres,context="AulaSteam")
+            wifi.publish_ubidots(typeVar="Gas",value=gas,context="AulaSteam")
+            
+            counter_sample = 0
         
         print("Temp: ",temp)
         print("Hum: ",hum)
@@ -61,7 +72,9 @@ def run():
         print("PIR A: ",pirA_val)
         print("PIR B: ",pirB_val)
         print("")
+        counter_sample += 1
         sleep(0.3)
+        
         
 
 

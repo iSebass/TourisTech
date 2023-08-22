@@ -5,10 +5,10 @@
 #webrepl.start()
 
 def getSSID():
-    return "YOUR SSID"
+    return "Docentes"
 
 def getPASS():
-    return "YOUR PASS"
+    return "KIZqBsUf8m"
 
 def getToken():
-    return "YOUR TOKEN"
+    return "BBFF-BRvJm1Ba7u0t1eUTXGgYFzPKK44Wkt"

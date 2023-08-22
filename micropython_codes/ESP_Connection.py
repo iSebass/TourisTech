@@ -27,7 +27,7 @@ class ESP_Connect():
            
     def connect_ubidots(self, token):
         self.ubidotsToken = token 
-        self.DEVICE_LABEL = "TouristTech"
+        self.DEVICE_LABEL = "TourisTec"
         
     def publish_ubidots(self, typeVar, value, context):
         

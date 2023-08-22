@@ -5,17 +5,17 @@ class BUZZER():
      def __init__(self, pin_buzzer):
          self.buzzer = Pin(pin_buzzer, Pin.OUT)
          
-     def set_relay(self):
+     def set_buzzer(self):
         self.buzzer.on()
     
-     def clear_relay(self):
+     def clear_buzzer(self):
         self.buzzer.off()
         
      def play_buzzer(self,times):
          for i in range(times):
-             self.set_relay()
+             self.set_buzzer()
              sleep(0.5)
-             self.clear_relay()
+             self.clear_buzzer()
              sleep(0.5)
          
 class RELAY():
