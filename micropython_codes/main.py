@@ -1,60 +1,69 @@
-from BME680 import *
-from machine import I2C, Pin
-import time
+from machine import Pin, I2C
 from time import sleep
-from ProjectTurist import *
+from bme680 import *
+from TuristProject import *
+from ESP_Connection import *
 
 
 
-bus_i2c = I2C(0)
-bus_i2c = I2C(1, scl=Pin(22), sda=Pin(21), freq=100000)
+
+list_relay_connection = [14,27,26,25,33,32]
+
+MY_SSID  = getSSID()
+MY_PASS  = getPASS()
+MY_TOKEN = getToken()
 
 
 def run():
     
-    #sensor bme
-    bme = BME680_I2C(i2c=bus_i2c)
+    wifi = ESP_Connect(SSID=MY_SSID, PASS= MY_PASS)
+    wifi.connect_ubidots(MY_TOKEN)
     
-    #setup
-    relay = Relay()
-    ldr_A = LDR()
+    i2c = I2C(1, scl=Pin(22), sda=Pin(21), freq=100000)
+    bme = BME680_I2C(i2c=i2c)
+    ldr_interior = LDR(pinldr=34)
+    ldr_exterior = LDR(pinldr=35)
+    pirA = PIR(pinpir=15)
+    pirB = PIR(pinpir=2)
+    relays = RELAY(list_relays =list_relay_connection )
+    buzzer = BUZZER(pin_buzzer=12)
+    
+    #buzzer.play_buzzer(5)
+    
     while True:
         
-        for i in range(6):
-            relay.setRelay(i+1)
-            sleep(0.5)
-            relay.clearRelay(i+1)
-            sleep(0.5)
         
-        temperature = bme.temperature
-        humidity    = bme.humidity
-        pressure    = bme.pressure
-        gas         = bme.gas
         
-        statusRelay1 = relay.getValueRelay(0)
-        statusRelay2 = relay.getValueRelay(1)
-        statusRelay3 = relay.getValueRelay(2)
-        statusRelay4 = relay.getValueRelay(3)
-        statusRelay5 = relay.getValueRelay(4)
-        statusRelay6 = relay.getValueRelay(5)
+        ldr_int_val = ldr_interior.get_ldr_Value()
+        ldr_ext_val = ldr_exterior.get_ldr_Value()
         
-        print("Relay State")
-        print("Status Relay1: ",statusRelay1)
-        print("Status Relay2: ",statusRelay2)
-        print("Status Relay3: ",statusRelay3)
-        print("Status Relay4: ",statusRelay4)
-        print("Status Relay5: ",statusRelay5)
-        print("Status Relay6: ",statusRelay6)
-        print("")
-        print("BME MEASUREMENT")
-        print("Tem: ",temperature)
-        print("Humidity: ",humidity)
-        print("Pressure: ",pressure)
+        pirA_val = pirA.get_pir_Value()
+        pirB_val = pirB.get_pir_Value()
+        
+        temp = bme.temperature
+        hum  = bme.humidity
+        pres = bme.pressure
+        gas  = bme.gas
+        
+        wifi.publish_ubidots(typeVar="Temperature",value=temp,context="AulaSteam")
+        wifi.publish_ubidots(typeVar="Humidity",value=hum,context="AulaSteam")
+        wifi.publish_ubidots(typeVar="Pressure",value=pres,context="AulaSteam")
+        wifi.publish_ubidots(typeVar="Gas",value=gas,context="AulaSteam")
+        
+        print("Temp: ",temp)
+        print("Hum: ",hum)
+        print("Pres: ",pres)
         print("Gas: ",gas)
         print("")
+        print("LDR INT: ",ldr_int_val)
+        print("LDR EXT: ",ldr_ext_val)
+        print("")
+        print("PIR A: ",pirA_val)
+        print("PIR B: ",pirB_val)
+        print("")
+        sleep(0.3)
         
-        sleep(1)
+
 
 if __name__=="__main__":
     run()
-    
