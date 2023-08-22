@@ -5,10 +5,10 @@
 #webrepl.start()
 
 def getSSID():
-    return "Troyano"
+    return "YOUR SSID"
 
 def getPASS():
-    return "31197746"
+    return "YOUR PASS"
 
 def getToken():
-    return "BBFF-lK680CvAaQPp5buv9ciPgFmooVJAr3"
+    return "YOUR TOKEN"
