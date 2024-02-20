@@ -7,7 +7,8 @@ En el marco de este proyecto, la metodología establece las fases fundamentales 
 
   1. **Implementación de Alexa**: La implementación de Alexa marca un avance significativo en el proyecto, al ofrecer una interacción innovadora para los usuarios del ecotel. Este punto de la metodología se enfoca en dos etapas cruciales:
      
-      __Configuración inicial de Alexa__: Se trata de preparar y conectar los dispositivos necesarios, configurar la aplicación y la cuenta asociada. Esta etapa       establece la base tecnológica esencial para la interacción con el asistente de voz.
+      __Configuración inicial de Alexa__: Se trata de preparar y conectar los dispositivos necesarios, configurar la aplicación y la cuenta asociada. Esta etapa       establece la base tecnológica esencial para la interacción con el asistente de voz. Para la configuración inical de alexa, se deben seguir los siguientes        pasos:     
+         1. Descargar la aplicación de alexa en el caso de sea con android [Amazon Alexa en Google Play Store](https://play.google.com/store/apps/details?id=com.amazon.dee.app&pcampaignid=web_share "Google Play Store") , en el caso que sea un dispositivo apple [Amazon Alexa en App Store](https://apps.apple.com/ni/app/amazon-alexa/id944011620 "App Store") 
      
      __Integración de Alexa con Node-RED__: Aquí, se exploran los pasos para conectar Alexa a Node-RED, una plataforma que facilita la automatización y el             control     de dispositivos IoT. Se configuran los nodos correspondientes para una comunicación efectiva entre ambos sistemas.
 
