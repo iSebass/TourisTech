@@ -1,4 +1,4 @@
-22713379358131955
+22694204149642101
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -42777,15 +42777,8 @@ Surface mounted socket strip SMD 2x40 2.54mm double row
 80
 80
 Connector_RJ
-RJ9_Evercom_5301-440xxx_Horizontal
-Evercom 5301-4P4C RJ9 receptacle, unshielded, https://datasheet.lcsc.com/lcsc/2207051802_EVERCOM-5301-4P4C_C3097715.pdf
-RJ9 Connector tab down
-0
-4
-4
-Connector_RJ
-RJ12_Amphenol_54601-x06_Horizontal
-RJ12 6P6C horizontal socket, plastic body, tab down, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0082.pdf
+RJ12_Amphenol_54601
+RJ12 connector  https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0082.pdf
 RJ12 connector
 0
 6
@@ -42806,7 +42799,7 @@ RJ12 RJ18 RJ25 jack connector 6P6C
 6
 Connector_RJ
 RJ45_Abracon_ARJP11A-MA_Horizontal
-Shielded RJ45 ethernet connector with transformer and POE, https://abracon.com/Magnetics/lan/ARJP11A.PDF
+Shielded RJ45 ethernet connector with transformer and POE (https://abracon.com/Magnetics/lan/ARJP11A.PDF)
 ethernet 8p8c transformer poe rj45
 0
 15
@@ -42833,13 +42826,6 @@ RJ45 8p8c dual ethernet cat5
 26
 25
 Connector_RJ
-RJ45_Amphenol_RJHSE538X-04
-Shielded, LEDs, 4 Ports, https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/rjhse538x04.pdf
-RJ45 8p8c quad ethernet cat5
-0
-52
-49
-Connector_RJ
 RJ45_Amphenol_RJHSE5380
 Shielded, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf
 RJ45 8p8c ethernet cat5
@@ -42855,7 +42841,7 @@ RJ45 8p8c ethernet cat5
 65
 Connector_RJ
 RJ45_Amphenol_RJMG1BD3B8K1ANR
-1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX, https://www.amphenol-cs.com/media/wysiwyg/files/drawing/rjmg1bd3b8k1anr.pdf
+1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX, https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF
 RJ45 Magjack
 0
 14
@@ -42875,13 +42861,6 @@ RJ45 Magjack
 14
 13
 Connector_RJ
-RJ45_Bel_V895-1001-AW_Vertical
-1 Port RJ45 Magjack Vertical Connector SMD 10/100 Base-T, https://www.belfuse.com/resources/drawings/magneticsolutions/dr-mag-v895-1001-aw.pdf
-RJ45 Magjack
-0
-14
-11
-Connector_RJ
 RJ45_Cetus_J1B1211CCD_Horizontal
 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, Cetus, used and distributed by WIZnet (https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz550web:wiz550webds_kr:j1b1211ccd.pdf)
 RJ45 Magjack
@@ -42889,50 +42868,8 @@ RJ45 Magjack
 14
 13
 Connector_RJ
-RJ45_Connfly_DS1128-09-S8xx-S_Horizontal
-1 Port RJ45 8p8c receptacle, shielded, through hole, 2 LEDs, tab up, http://en.connfly.group/static/upload/file//DS1128-09.pdf
-RJ45 8p8c ethernet
-0
-14
-13
-Connector_RJ
-RJ45_HALO_HFJ11-x2450E-LxxRL_Horizontal
-Halo FastJack, Shielded, 2 LEDs, https://www.haloelectronics.com/pdf/fastjack-100baset.pdf
-10/100 Ethernet RJ45 Tab-Down
-0
-14
-13
-Connector_RJ
-RJ45_HALO_HFJ11-x2450ERL_Horizontal
-Halo FastJack, Shielded, https://www.haloelectronics.com/pdf/fastjack-100baset.pdf
-10/100 Ethernet RJ45 Tab-Down
-0
-9
-8
-Connector_RJ
-RJ45_HALO_HFJ11-x2450HRL_Horizontal
-Halo FastJack, Shielded, https://www.haloelectronics.com/pdf/fastjack-100baset.pdf
-10/100 Ethernet RJ45 Tab-Down
-0
-10
-9
-Connector_RJ
-RJ45_Hanrun_HR911105A_Horizontal
-1 Port RJ45 8P8C receptacle, shielded, with magnetics, through hole, 2 LEDs, tab down, http://www.hanrun.com/public/upload/down/2020/09-11/cc11be56d66bb63d5f1eeb85492439c0.pdf
-RJ45 Magjack ethernet
-0
-14
-13
-Connector_RJ
-RJ45_Kycon_G7LX-A88S7-BP-xx_Horizontal
-10/100Base-T RJ45 ethernet magnetic transformer connector horizontal with green/yellow LEDs http://www.kycon.com/Pub_Eng_Draw/G7LX-A88S7-BP-GY.pdf
-RJ45 ethernet magnetic
-0
-16
-15
-Connector_RJ
-RJ45_Molex_9346520x_Horizontal
-1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, two LED, tab up
+RJ45_Hanrun_HR911105A
+http://www.kosmodrom.com.ua/pdf/HR911105A.pdf
 RJ45 Magjack
 0
 14
@@ -42965,13 +42902,6 @@ AJP92A8813 8P8C RJ45 ethernet plug
 0
 8
 8
-Connector_RJ
-RJ45_Pulse_JK00177NL_Horizontal
-10/100/1000 Base-T RJ45 single port with LEDs and 75W POE, https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/J432/doc_part/J432.pdf
-RJ45 8p8c ethernet POE
-0
-22
-21
 Connector_RJ
 RJ45_Pulse_JK0654219NL_Horizontal
 10/100/1000 Base-T RJ45 single port with LEDs https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/JK%20Series.pdf#page=2
