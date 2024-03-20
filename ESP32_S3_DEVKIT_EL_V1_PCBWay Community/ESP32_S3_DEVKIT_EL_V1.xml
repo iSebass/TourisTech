@@ -1,0 +1,2373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>B:\KiCad\ESP32_S3_DEVKIT_EL_V1\ESP32_S3_DEVKIT_EL_V1\ESP32_S3_DEVKIT_EL_V1.kicad_sch</source>
+    <date>11/7/2023 8:32:12 PM</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESP32 DevKit EL V1</title>
+        <company>Easy Learning</company>
+        <rev>V1</rev>
+        <date>2023-10-12</date>
+        <source>ESP32_S3_DEVKIT_EL_V1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS</footprint>
+      <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
+      <fields>
+        <field name="Description">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Price">0.15</field>
+        <field name="Product Number">PTS636 SK25 SMTR LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Product Number" value="PTS636 SK25 SMTR LFS"/>
+      <property name="Description" value="Tactile Switch SPST-NO Top Actuated Surface Mount"/>
+      <property name="Price" value="0.15"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3463405-148c-46d5-8e0f-5f5b94a8e9b3</tstamps>
+    </comp>
+    <comp ref="BT2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS</footprint>
+      <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
+      <fields>
+        <field name="Description">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Price">0.15</field>
+        <field name="Product Number">PTS636 SK25 SMTR LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Product Number" value="PTS636 SK25 SMTR LFS"/>
+      <property name="Description" value="Tactile Switch SPST-NO Top Actuated Surface Mount"/>
+      <property name="Price" value="0.15"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61ee025c-5e27-4071-b523-fa2daf4bd446</tstamps>
+    </comp>
+    <comp ref="BT3">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS</footprint>
+      <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
+      <fields>
+        <field name="Description">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Price">0.15</field>
+        <field name="Product Number">PTS636 SK25 SMTR LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Product Number" value="PTS636 SK25 SMTR LFS"/>
+      <property name="Description" value="Tactile Switch SPST-NO Top Actuated Surface Mount"/>
+      <property name="Price" value="0.15"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>509e17d5-9a08-48fc-9fa0-bb407ead5192</tstamps>
+    </comp>
+    <comp ref="BT4">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS</footprint>
+      <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
+      <fields>
+        <field name="Description">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Price">0.15</field>
+        <field name="Product Number">PTS636 SK25 SMTR LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Product Number" value="PTS636 SK25 SMTR LFS"/>
+      <property name="Description" value="Tactile Switch SPST-NO Top Actuated Surface Mount"/>
+      <property name="Price" value="0.15"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a394270-b540-4157-8e59-7cfe8cf7dcb9</tstamps>
+    </comp>
+    <comp ref="BZ1">
+      <value>Buzzer</value>
+      <footprint>Buzzer_Beeper:Buzzer_12x9.5RM7.6</footprint>
+      <datasheet>https://www.digikey.com/en/supplier-centers/soberton</datasheet>
+      <fields>
+        <field name="Description">Buzzers Transducer, Externally Driven Magnetic 1.5 V 10mA 2.048kHz 80dB @ 1.5V, 10cm Through Hole PC Pins</field>
+        <field name="Manufacturer">Soberton Inc.</field>
+        <field name="Price">0.65</field>
+        <field name="Product Number">GT-111P</field>
+      </fields>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="Manufacturer" value="Soberton Inc."/>
+      <property name="Product Number" value="GT-111P"/>
+      <property name="Description" value="Buzzers Transducer, Externally Driven Magnetic 1.5 V 10mA 2.048kHz 80dB @ 1.5V, 10cm Through Hole PC Pins"/>
+      <property name="Price" value="0.65"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Buzzer, polarized"/>
+      <property name="ki_keywords" value="quartz resonator ceramic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82bf03f4-b83a-42c9-9336-f57d438381d5</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104K5RACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.11</field>
+        <field name="Product Number">C0603C104K5RAC7867</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C0603C104K5RAC7867"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Price" value="0.11"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2988f7c4-2058-4940-a8d8-3e25dbeb6dca</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C1206C106M3PACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 25V X5R 1206</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.27</field>
+        <field name="Product Number">C1206C106M3PAC7800</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C1206C106M3PAC7800"/>
+      <property name="Description" value="CAP CER 10UF 25V X5R 1206"/>
+      <property name="Price" value="0.27"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0cf2974-bc7f-4680-b123-8b68081de2be</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104K5RACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.11</field>
+        <field name="Product Number">C0603C104K5RAC7867</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C0603C104K5RAC7867"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Price" value="0.11"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3bac672-6d5a-4eb0-a5de-48381349ed55</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C1206C105M4RAC7800</datasheet>
+      <fields>
+        <field name="Description">1 µF ±20% 16V Ceramic Capacitor X7R 1206 (3216 Metric)</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.17</field>
+        <field name="Product Number">C1206C105M4RAC7800</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C1206C105M4RAC7800"/>
+      <property name="Description" value="1 µF ±20% 16V Ceramic Capacitor X7R 1206 (3216 Metric)"/>
+      <property name="Price" value="0.17"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9c62c18-bf7b-435f-8e74-63bbc6e6f1cf</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104K5RACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.11</field>
+        <field name="Product Number">C0603C104K5RAC7867</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C0603C104K5RAC7867"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Price" value="0.11"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>925fe971-9360-4ce3-871d-e31f1685de4f</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104K5RACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.11</field>
+        <field name="Product Number">C0603C104K5RAC7867</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C0603C104K5RAC7867"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Price" value="0.11"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ce0ba7f-05a2-4f5e-905b-b598349775de</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104K5RACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.11</field>
+        <field name="Product Number">C0603C104K5RAC7867</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C0603C104K5RAC7867"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Price" value="0.11"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f43d535-8a4d-4717-a582-eacb2605c4d6</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104K5RACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.11</field>
+        <field name="Product Number">C0603C104K5RAC7867</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C0603C104K5RAC7867"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Price" value="0.11"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61d1b16b-08ae-469f-83ab-bc351ce6a628</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C1206C106M3PACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 25V X5R 1206</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.27</field>
+        <field name="Product Number">C1206C106M3PAC7800</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C1206C106M3PAC7800"/>
+      <property name="Description" value="CAP CER 10UF 25V X5R 1206"/>
+      <property name="Price" value="0.27"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19a9fe9f-55b3-40ea-a82a-e62ae764e2f6</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104K5RACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.11</field>
+        <field name="Product Number">C0603C104K5RAC7867</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C0603C104K5RAC7867"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Price" value="0.11"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c2f0505-30b0-42ab-8261-1cb60fe7de54</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104K5RACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.11</field>
+        <field name="Product Number">C0603C104K5RAC7867</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C0603C104K5RAC7867"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Price" value="0.11"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7729bfa0-df04-4a8f-8c61-dbcc8ec80840</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C1206C106M3PACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 25V X5R 1206</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.27</field>
+        <field name="Product Number">C1206C106M3PAC7800</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C1206C106M3PAC7800"/>
+      <property name="Description" value="CAP CER 10UF 25V X5R 1206"/>
+      <property name="Price" value="0.27"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7978045c-86fa-4535-bf65-953be52a2b91</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104K5RACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.11</field>
+        <field name="Product Number">C0603C104K5RAC7867</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C0603C104K5RAC7867"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Price" value="0.11"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a26b24e-5d71-452e-8d08-a62f5deb6557</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C104K5RACTU</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.11</field>
+        <field name="Product Number">C0603C104K5RAC7867</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="Product Number" value="C0603C104K5RAC7867"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Price" value="0.11"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73265529-8423-469d-8aea-58559255f343</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Green LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_CBI_data_598-1206_Apr2018.pdf</datasheet>
+      <fields>
+        <field name="Description">Green 566nm LED Indication - Discrete 2V 1206 (3216 Metric)</field>
+        <field name="Manufacturer">Dialight</field>
+        <field name="Price">0.32</field>
+        <field name="Product Number">5988270107F</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Dialight"/>
+      <property name="Product Number" value="5988270107F"/>
+      <property name="Description" value="Green 566nm LED Indication - Discrete 2V 1206 (3216 Metric)"/>
+      <property name="Price" value="0.32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec3d0ddb-19d1-4751-ad8e-d9bfabf28e18</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>NRVA4007T3G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mra4003t3-d.pdf</datasheet>
+      <fields>
+        <field name="Description">Diode 1000 V 1A Surface Mount SMA</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Price">0.41</field>
+        <field name="Product Number">NRVA4007T3G</field>
+      </fields>
+      <libsource lib="Diode" part="MRA4007T3G" description="1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Product Number" value="NRVA4007T3G"/>
+      <property name="Description" value="Diode 1000 V 1A Surface Mount SMA"/>
+      <property name="Price" value="0.41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7337e0e-e916-40a3-a4f5-d13d2bdcc1f1</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Description">Addressable Lighting - LED Serial NRZ (Shift Register) Red, Green, Blue (RGB)</field>
+        <field name="Manufacturer">SparkFun Electronics</field>
+        <field name="Price">0.58</field>
+        <field name="Product Number">COM-16347</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Manufacturer" value="SparkFun Electronics"/>
+      <property name="Product Number" value="COM-16347"/>
+      <property name="Description" value="Addressable Lighting - LED Serial NRZ (Shift Register) Red, Green, Blue (RGB)"/>
+      <property name="Price" value="0.58"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>657e14f0-9d47-4588-9248-913ade5b88db</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Description">Addressable Lighting - LED Serial NRZ (Shift Register) Red, Green, Blue (RGB)</field>
+        <field name="Manufacturer">SparkFun Electronics</field>
+        <field name="Price">0.58</field>
+        <field name="Product Number">COM-16347</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Manufacturer" value="SparkFun Electronics"/>
+      <property name="Product Number" value="COM-16347"/>
+      <property name="Description" value="Addressable Lighting - LED Serial NRZ (Shift Register) Red, Green, Blue (RGB)"/>
+      <property name="Price" value="0.58"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cd7c349-0c8e-44e9-bd9d-bbebc21dea21</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Description">Addressable Lighting - LED Serial NRZ (Shift Register) Red, Green, Blue (RGB)</field>
+        <field name="Manufacturer">SparkFun Electronics</field>
+        <field name="Price">0.58</field>
+        <field name="Product Number">COM-16347</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Manufacturer" value="SparkFun Electronics"/>
+      <property name="Product Number" value="COM-16347"/>
+      <property name="Description" value="Addressable Lighting - LED Serial NRZ (Shift Register) Red, Green, Blue (RGB)"/>
+      <property name="Price" value="0.58"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42beff4d-4b9a-41bd-996e-ae7d81c0c25e</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Description">Addressable Lighting - LED Serial NRZ (Shift Register) Red, Green, Blue (RGB)</field>
+        <field name="Manufacturer">SparkFun Electronics</field>
+        <field name="Price">0.58</field>
+        <field name="Product Number">COM-16347</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Manufacturer" value="SparkFun Electronics"/>
+      <property name="Product Number" value="COM-16347"/>
+      <property name="Description" value="Addressable Lighting - LED Serial NRZ (Shift Register) Red, Green, Blue (RGB)"/>
+      <property name="Price" value="0.58"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>701317fd-d075-4cd1-b8de-d56758aae1ef</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>Blue LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_CBI_data_598-1206_Apr2018.pdf</datasheet>
+      <fields>
+        <field name="Description">Blue 473nm LED Indication - Discrete 3.2V 1206 (3216 Metric)</field>
+        <field name="Manufacturer">Dialight</field>
+        <field name="Price">0.38</field>
+        <field name="Product Number">5988291107F</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Dialight"/>
+      <property name="Product Number" value="5988291107F"/>
+      <property name="Description" value="Blue 473nm LED Indication - Discrete 3.2V 1206 (3216 Metric)"/>
+      <property name="Price" value="0.38"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5275a91e-454d-4f6d-8a6d-7685ae6c6330</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>Blue LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_CBI_data_598-1206_Apr2018.pdf</datasheet>
+      <fields>
+        <field name="Description">Blue 473nm LED Indication - Discrete 3.2V 1206 (3216 Metric)</field>
+        <field name="Manufacturer">Dialight</field>
+        <field name="Price">0.38</field>
+        <field name="Product Number">5988291107F</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Dialight"/>
+      <property name="Product Number" value="5988291107F"/>
+      <property name="Description" value="Blue 473nm LED Indication - Discrete 3.2V 1206 (3216 Metric)"/>
+      <property name="Price" value="0.38"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b636e6a4-d2cd-43d6-aa51-573f7699e555</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>Blue LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_CBI_data_598-1206_Apr2018.pdf</datasheet>
+      <fields>
+        <field name="Description">Blue 473nm LED Indication - Discrete 3.2V 1206 (3216 Metric)</field>
+        <field name="Manufacturer">Dialight</field>
+        <field name="Price">0.38</field>
+        <field name="Product Number">5988291107F</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Dialight"/>
+      <property name="Product Number" value="5988291107F"/>
+      <property name="Description" value="Blue 473nm LED Indication - Discrete 3.2V 1206 (3216 Metric)"/>
+      <property name="Price" value="0.38"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7de94b5d-a023-49fb-b52f-a9025f40e9e3</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>Blue LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_CBI_data_598-1206_Apr2018.pdf</datasheet>
+      <fields>
+        <field name="Description">Blue 473nm LED Indication - Discrete 3.2V 1206 (3216 Metric)</field>
+        <field name="Manufacturer">Dialight</field>
+        <field name="Price">0.38</field>
+        <field name="Product Number">5988291107F</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Dialight"/>
+      <property name="Product Number" value="5988291107F"/>
+      <property name="Description" value="Blue 473nm LED Indication - Discrete 3.2V 1206 (3216 Metric)"/>
+      <property name="Price" value="0.38"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9da672be-f389-487f-8c48-c62ff266ff33</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/62/6b/2e/7f/34/cb/43/55/CD00001633.pdf/files/CD00001633.pdf/jcr:content/translations/en.CD00001633.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODE SCHOTTKY 30V 2A SMA</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Price">0.36</field>
+        <field name="Product Number">STPS2L30A</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Product Number" value="STPS2L30A"/>
+      <property name="Description" value="DIODE SCHOTTKY 30V 2A SMA"/>
+      <property name="Price" value="0.36"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de52314c-8818-45e6-902f-99d86b57b11e</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/62/6b/2e/7f/34/cb/43/55/CD00001633.pdf/files/CD00001633.pdf/jcr:content/translations/en.CD00001633.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODE SCHOTTKY 30V 2A SMA</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Price">0.36</field>
+        <field name="Product Number">STPS2L30A</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Product Number" value="STPS2L30A"/>
+      <property name="Description" value="DIODE SCHOTTKY 30V 2A SMA"/>
+      <property name="Price" value="0.36"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c76f86a4-3aa0-4d9a-b9c4-ed2bb8e406dd</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/62/6b/2e/7f/34/cb/43/55/CD00001633.pdf/files/CD00001633.pdf/jcr:content/translations/en.CD00001633.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODE SCHOTTKY 30V 2A SMA</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Price">0.36</field>
+        <field name="Product Number">STPS2L30A</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Product Number" value="STPS2L30A"/>
+      <property name="Description" value="DIODE SCHOTTKY 30V 2A SMA"/>
+      <property name="Price" value="0.36"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e254b2c-0553-4e2d-960c-e2361a69978a</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>RED LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_CBI_data_598-1206_Apr2018.pdf</datasheet>
+      <fields>
+        <field name="Description">Red 635nm LED Indication - Discrete 2V 1206 (3216 Metric)</field>
+        <field name="Manufacturer">Dialight</field>
+        <field name="Price">0.33</field>
+        <field name="Product Number">5988210107F</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Dialight"/>
+      <property name="Product Number" value="5988210107F"/>
+      <property name="Description" value="Red 635nm LED Indication - Discrete 2V 1206 (3216 Metric)"/>
+      <property name="Price" value="0.33"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9612a558-52c2-478f-91ab-9fe89610ed50</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x03_IDC</value>
+      <footprint>Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/203218/bhr-xx-vua-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole 6 position 0.100" (2.54mm)</field>
+        <field name="Manufacturer">Adam Tech</field>
+        <field name="Price">0.25</field>
+        <field name="Product Number">2057-BHR-06-VUA-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Adam Tech"/>
+      <property name="Product Number" value="2057-BHR-06-VUA-ND"/>
+      <property name="Description" value="Connector Header Through Hole 6 position 0.100&quot; (2.54mm)"/>
+      <property name="Price" value="0.25"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61d81e14-d8e3-4ad9-9a9b-cca2f49e06ae</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex_47346-0001</footprint>
+      <datasheet>https://tools.molex.com/pdm_docs/sd/473460001_sd.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN RCPT USB2.0 MICRO B SMD R/A</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Price">1.17</field>
+        <field name="Product Number">0473460001</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Description" value="CONN RCPT USB2.0 MICRO B SMD R/A"/>
+      <property name="Product Number" value="0473460001"/>
+      <property name="Price" value="1.17"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="USB Micro Type B connector"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b6fb760-86c1-41c2-b3bb-45228bbfbaaf</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <datasheet>https://media.digikey.com/PDF/Data%20Sheets/Phoenix%20Contact%20PDFs/1734656.pdf</datasheet>
+      <fields>
+        <field name="Description">2 Position Wire to Board Terminal Block Horizontal with Board 0.197" (5.00mm) Through Hole</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Price">1.26</field>
+        <field name="Product Number">1734656</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Product Number" value="1734656"/>
+      <property name="Description" value="2 Position Wire to Board Terminal Block Horizontal with Board 0.197&quot; (5.00mm) Through Hole"/>
+      <property name="Price" value="1.26"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99d72b1b-a0c3-4ed4-8ead-a06dadd24ea0</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x03_IDC</value>
+      <footprint>Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/203218/bhr-xx-vua-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole 6 position 0.100" (2.54mm)</field>
+        <field name="Manufacturer">Adam Tech</field>
+        <field name="Price">0.25</field>
+        <field name="Product Number">2057-BHR-06-VUA-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Adam Tech"/>
+      <property name="Product Number" value="2057-BHR-06-VUA-ND"/>
+      <property name="Description" value="Connector Header Through Hole 6 position 0.100&quot; (2.54mm)"/>
+      <property name="Price" value="0.25"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee3338cd-c8cb-40c1-b9ad-6f46978c28cf</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x03_IDC</value>
+      <footprint>Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/203218/bhr-xx-vua-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole 6 position 0.100" (2.54mm)</field>
+        <field name="Manufacturer">Adam Tech</field>
+        <field name="Price">0.25</field>
+        <field name="Product Number">2057-BHR-06-VUA-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Adam Tech"/>
+      <property name="Product Number" value="2057-BHR-06-VUA-ND"/>
+      <property name="Description" value="Connector Header Through Hole 6 position 0.100&quot; (2.54mm)"/>
+      <property name="Price" value="0.25"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00b373b5-9f90-4567-8299-518ef826ae14</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <datasheet>https://media.digikey.com/PDF/Data%20Sheets/Phoenix%20Contact%20PDFs/1734656.pdf</datasheet>
+      <fields>
+        <field name="Description">2 Position Wire to Board Terminal Block Horizontal with Board 0.197" (5.00mm) Through Hole</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Price">1.26</field>
+        <field name="Product Number">1734656</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Product Number" value="1734656"/>
+      <property name="Description" value="2 Position Wire to Board Terminal Block Horizontal with Board 0.197&quot; (5.00mm) Through Hole"/>
+      <property name="Price" value="1.26"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>625d4dea-e742-4f5c-8289-87f92bbc1724</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/54202.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Surface Mount 6 position 0.100" (2.54mm)</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Price">0.45</field>
+        <field name="Product Number">54202-S0803LF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Amphenol ICC (FCI)"/>
+      <property name="Product Number" value="54202-S0803LF"/>
+      <property name="Description" value="Connector Header Surface Mount 6 position 0.100&quot; (2.54mm)"/>
+      <property name="Price" value="0.45"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5994138a-f6fd-4acf-8f8f-f614a5840ea6</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex_47346-0001</footprint>
+      <datasheet>https://tools.molex.com/pdm_docs/sd/473460001_sd.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN RCPT USB2.0 MICRO B SMD R/A</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Price">1.17</field>
+        <field name="Product Number">0473460001</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Description" value="CONN RCPT USB2.0 MICRO B SMD R/A"/>
+      <property name="Product Number" value="0473460001"/>
+      <property name="Price" value="1.17"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="USB Micro Type B connector"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29065747-438e-499f-9006-e90bac1b020c</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole 10 position 0.100" (2.54mm)</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Price">0.33</field>
+        <field name="Product Number">ED1543-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="On Shore Technology Inc."/>
+      <property name="Product Number" value="ED1543-ND"/>
+      <property name="Description" value="Connector Header Through Hole 10 position 0.100&quot; (2.54mm)"/>
+      <property name="Price" value="0.33"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12b43b45-595a-469f-ba2a-310060bfc9ad</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>G5Q-1A</value>
+      <footprint>Relay_THT:Relay_SPST_Omron-G5Q-1A</footprint>
+      <datasheet>https://www.omron.com/ecb/products/pdf/en-g5q.pdf</datasheet>
+      <fields>
+        <field name="Description">General Purpose Relay SPST-NO (1 Form A) 5VDC Coil Through Hole</field>
+        <field name="Manufacturer">Omron Electronics Inc-EMC Div</field>
+        <field name="Price">1.57</field>
+        <field name="Product Number">G5Q-1A4 DC5</field>
+      </fields>
+      <libsource lib="Relay" part="G5Q-1A" description="Omron G5Q relay, Miniature Single Pole, SPST-NO, 10A"/>
+      <property name="Manufacturer" value="Omron Electronics Inc-EMC Div"/>
+      <property name="Product Number" value="G5Q-1A4 DC5"/>
+      <property name="Description" value="General Purpose Relay SPST-NO (1 Form A) 5VDC Coil Through Hole"/>
+      <property name="Price" value="1.57"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Omron G5Q relay, Miniature Single Pole, SPST-NO, 10A"/>
+      <property name="ki_keywords" value="Miniature Single Pole Relay"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>babd8bae-4e95-444b-a7a9-8c07d2b0dc50</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NPN_BEC</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mmbt2222lt1-d.pdf</datasheet>
+      <fields>
+        <field name="Description">Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236)</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Price">0.16</field>
+        <field name="Product Number">MMBT2222LT1G</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Product Number" value="MMBT2222LT1G"/>
+      <property name="Description" value="Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236)"/>
+      <property name="Price" value="0.16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="NPN transistor, base/emitter/collector"/>
+      <property name="ki_keywords" value="transistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03853dbe-9e19-4819-b39a-54eb9afbc88b</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NPN_BEC</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mmbt2222lt1-d.pdf</datasheet>
+      <fields>
+        <field name="Description">Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236)</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Price">0.16</field>
+        <field name="Product Number">MMBT2222LT1G</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Product Number" value="MMBT2222LT1G"/>
+      <property name="Description" value="Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236)"/>
+      <property name="Price" value="0.16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="NPN transistor, base/emitter/collector"/>
+      <property name="ki_keywords" value="transistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57f56716-b7f5-43b2-beb1-9b5ae51a343a</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NPN_BEC</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mmbt2222lt1-d.pdf</datasheet>
+      <fields>
+        <field name="Description">Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236)</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Price">0.16</field>
+        <field name="Product Number">MMBT2222LT1G</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Product Number" value="MMBT2222LT1G"/>
+      <property name="Description" value="Bipolar (BJT) Transistor NPN 30 V 600 mA 250MHz 300 mW Surface Mount SOT-23-3 (TO-236)"/>
+      <property name="Price" value="0.16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="NPN transistor, base/emitter/collector"/>
+      <property name="ki_keywords" value="transistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d216eb53-f6ef-4279-b183-6c6cb368818c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ-P08J102V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 1K OHM 5% 2/3W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.14</field>
+        <field name="Product Number">ERJ-P08J102V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-P08J102V"/>
+      <property name="Description" value="RES SMD 1K OHM 5% 2/3W 1206"/>
+      <property name="Price" value="0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00516636-9f70-42a6-8bc1-c0ad5b451d5b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ-P08J102V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 1K OHM 5% 2/3W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.14</field>
+        <field name="Product Number">ERJ-P08J102V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-P08J102V"/>
+      <property name="Description" value="RES SMD 1K OHM 5% 2/3W 1206"/>
+      <property name="Price" value="0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e6101d9-7e4a-4c4d-aa3b-c0ff2cca72ec</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ-P08J102V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 1K OHM 5% 2/3W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.14</field>
+        <field name="Product Number">ERJ-P08J102V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-P08J102V"/>
+      <property name="Description" value="RES SMD 1K OHM 5% 2/3W 1206"/>
+      <property name="Price" value="0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf6cb4c7-6a5a-47ed-8cc4-b5b009c7bb70</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ8GEYJ331V</datasheet>
+      <fields>
+        <field name="Description">0 Ohms Jumper Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.14</field>
+        <field name="Product Number">ERJ-8GEY0R00V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-8GEY0R00V"/>
+      <property name="Description" value="0 Ohms Jumper Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Price" value="0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37044b8c-9253-4743-8d42-40a1eb7c1c0b</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ-P08J102V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 1K OHM 5% 2/3W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.14</field>
+        <field name="Product Number">ERJ-P08J102V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-P08J102V"/>
+      <property name="Description" value="RES SMD 1K OHM 5% 2/3W 1206"/>
+      <property name="Price" value="0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9888b24b-5302-44b4-8964-8fded0362154</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ-8GEYJ103V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 10K OHM 5% 1/4W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.12</field>
+        <field name="Product Number">ERJ-8GEYJ103V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-8GEYJ103V"/>
+      <property name="Description" value="RES SMD 10K OHM 5% 1/4W 1206"/>
+      <property name="Price" value="0.12"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef625d52-21e1-4782-85f7-79b5402efb3a</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ-8GEYJ103V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 10K OHM 5% 1/4W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.12</field>
+        <field name="Product Number">ERJ-8GEYJ103V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-8GEYJ103V"/>
+      <property name="Description" value="RES SMD 10K OHM 5% 1/4W 1206"/>
+      <property name="Price" value="0.12"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60be7066-88ea-4801-a2e7-ce857e7023ce</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ8GEYJ331V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 330 OHM 5% 1/4W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.14</field>
+        <field name="Product Number">ERJ-8GEYJ331V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-8GEYJ331V"/>
+      <property name="Description" value="RES SMD 330 OHM 5% 1/4W 1206"/>
+      <property name="Price" value="0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2d6e9fb-50c2-4317-916f-a071ef936dca</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ8GEYJ331V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 330 OHM 5% 1/4W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.14</field>
+        <field name="Product Number">ERJ-8GEYJ331V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-8GEYJ331V"/>
+      <property name="Description" value="RES SMD 330 OHM 5% 1/4W 1206"/>
+      <property name="Price" value="0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>989a5186-ade7-489e-8b8c-b920550d9925</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ8GEYJ331V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 330 OHM 5% 1/4W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.14</field>
+        <field name="Product Number">ERJ-8GEYJ331V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-8GEYJ331V"/>
+      <property name="Description" value="RES SMD 330 OHM 5% 1/4W 1206"/>
+      <property name="Price" value="0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b08d61e2-1d27-44a8-b083-6270a25d391f</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ8GEYJ331V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 330 OHM 5% 1/4W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.14</field>
+        <field name="Product Number">ERJ-8GEYJ331V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-8GEYJ331V"/>
+      <property name="Description" value="RES SMD 330 OHM 5% 1/4W 1206"/>
+      <property name="Price" value="0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a76ab8f7-e142-4bd6-9910-41cc4545a321</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ-8GEYJ103V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 10K OHM 5% 1/4W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.12</field>
+        <field name="Product Number">ERJ-8GEYJ103V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-8GEYJ103V"/>
+      <property name="Description" value="RES SMD 10K OHM 5% 1/4W 1206"/>
+      <property name="Price" value="0.12"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7aa07c87-6e90-4b2b-bb6c-89d5c745a0a0</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ-8GEYJ103V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 10K OHM 5% 1/4W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.12</field>
+        <field name="Product Number">ERJ-8GEYJ103V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-8GEYJ103V"/>
+      <property name="Description" value="RES SMD 10K OHM 5% 1/4W 1206"/>
+      <property name="Price" value="0.12"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb4cb67a-535e-4e67-a359-54e4dad5cef9</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ8GEYJ331V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 330 OHM 5% 1/4W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.14</field>
+        <field name="Product Number">ERJ-8GEYJ331V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-8GEYJ331V"/>
+      <property name="Description" value="RES SMD 330 OHM 5% 1/4W 1206"/>
+      <property name="Price" value="0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>757cc29c-ef26-4fc6-8332-29d5ee723e82</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ8GEYJ331V</datasheet>
+      <fields>
+        <field name="Description">RES SMD 330 OHM 5% 1/4W 1206</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Price">0.14</field>
+        <field name="Product Number">ERJ-8GEYJ331V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Product Number" value="ERJ-8GEYJ331V"/>
+      <property name="Description" value="RES SMD 330 OHM 5% 1/4W 1206"/>
+      <property name="Price" value="0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e28afcd-5591-4ccb-b6a2-f51417ec05fc</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical</footprint>
+      <datasheet>https://www.vishay.com/docs/51016/t73.pdf</datasheet>
+      <fields>
+        <field name="Description">100 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Price">1.61</field>
+        <field name="Product Number">3386P-1-104LF</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_Trim_US" description="Trim-potentiometer, US symbol"/>
+      <property name="Description" value="100 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment"/>
+      <property name="Product Number" value="3386P-1-104LF"/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="Price" value="1.61"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Trim-potentiometer, US symbol"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>204290e1-c7a8-4a9c-bc0c-e9e1a2f33aea</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical</footprint>
+      <datasheet>https://www.vishay.com/docs/51016/t73.pdf</datasheet>
+      <fields>
+        <field name="Description">100 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Price">1.61</field>
+        <field name="Product Number">3386P-1-104LF</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_Trim_US" description="Trim-potentiometer, US symbol"/>
+      <property name="Description" value="100 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment"/>
+      <property name="Product Number" value="3386P-1-104LF"/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="Price" value="1.61"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Trim-potentiometer, US symbol"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c2a2f38-202a-4b78-a99f-49772f921501</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical</footprint>
+      <datasheet>https://www.vishay.com/docs/51016/t73.pdf</datasheet>
+      <fields>
+        <field name="Description">100 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Price">1.61</field>
+        <field name="Product Number">3386P-1-104LF</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_Trim_US" description="Trim-potentiometer, US symbol"/>
+      <property name="Description" value="100 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment"/>
+      <property name="Product Number" value="3386P-1-104LF"/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="Price" value="1.61"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Trim-potentiometer, US symbol"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>699842b1-b997-4a60-bbac-81633c8332a5</tstamps>
+    </comp>
+    <comp ref="RV4">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical</footprint>
+      <datasheet>https://www.vishay.com/docs/51016/t73.pdf</datasheet>
+      <fields>
+        <field name="Description">100 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Price">1.61</field>
+        <field name="Product Number">3386P-1-104LF</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_Trim_US" description="Trim-potentiometer, US symbol"/>
+      <property name="Description" value="100 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment"/>
+      <property name="Product Number" value="3386P-1-104LF"/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="Price" value="1.61"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Trim-potentiometer, US symbol"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>873d07db-42b1-4931-833a-ee3d3a1af27a</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS</footprint>
+      <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
+      <fields>
+        <field name="Description">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Price">0.15</field>
+        <field name="Product Number">PTS636 SK25 SMTR LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Product Number" value="PTS636 SK25 SMTR LFS"/>
+      <property name="Description" value="Tactile Switch SPST-NO Top Actuated Surface Mount"/>
+      <property name="Price" value="0.15"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fe2e56f-e47e-4dd9-8223-1f5ca7c8013d</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS</footprint>
+      <datasheet>https://www.ckswitches.com/media/2779/pts636.pdf</datasheet>
+      <fields>
+        <field name="Description">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Price">0.15</field>
+        <field name="Product Number">PTS636 SK25 SMTR LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Product Number" value="PTS636 SK25 SMTR LFS"/>
+      <property name="Description" value="Tactile Switch SPST-NO Top Actuated Surface Mount"/>
+      <property name="Price" value="0.15"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2a7fe2b-d4c7-49f6-b253-c3856d806172</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>CH340C</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf</datasheet>
+      <fields>
+        <field name="Description">USB to serial port chip</field>
+        <field name="Manufacturer">WCH</field>
+        <field name="Price">0.73</field>
+        <field name="Product Number">CH340C</field>
+      </fields>
+      <libsource lib="Interface_USB" part="CH340C" description="USB serial converter, UART, SOIC-16"/>
+      <property name="Manufacturer" value="WCH"/>
+      <property name="Product Number" value="CH340C"/>
+      <property name="Description" value="USB to serial port chip"/>
+      <property name="Price" value="0.73"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="USB serial converter, UART, SOIC-16"/>
+      <property name="ki_keywords" value="USB UART Serial Converter Interface"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1fa60d4-eabf-4dfd-936a-d70870fd1e2f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ESP32-S3-WROOM-1</value>
+      <footprint>PCM_Espressif:ESP32-S3-WROOM-1</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="Description">WiFi 802.11a/b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace</field>
+        <field name="Manufacturer">Espressif Systems</field>
+        <field name="Price">3.35</field>
+        <field name="Product Number">ESP32-S3-WROOM-1-N8R2</field>
+      </fields>
+      <libsource lib="PCM_Espressif" part="ESP32-S3-WROOM-1" description="2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"/>
+      <property name="Manufacturer" value="Espressif Systems"/>
+      <property name="Product Number" value="ESP32-S3-WROOM-1-N8R2"/>
+      <property name="Description" value="WiFi 802.11a/b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace"/>
+      <property name="Price" value="3.35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b39df9dd-70b1-4994-b705-5e1560839f04</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>3.3v 1A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AZ1117C.pdf</datasheet>
+      <fields>
+        <field name="Description">IC REG LINEAR 3.3V 1A SOT223</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Price">0.45</field>
+        <field name="Product Number">AZ1117CH-3.3TRG1</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AZ1117-3.3" description="1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Product Number" value="AZ1117CH-3.3TRG1"/>
+      <property name="Description" value="IC REG LINEAR 3.3V 1A SOT223"/>
+      <property name="Price" value="0.45"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_S3_DEVKIT_EL_V1.kicad_sch"/>
+      <property name="ki_description" value="1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"/>
+      <property name="ki_keywords" value="Fixed Voltage Regulator 1A Positive LDO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e3b00d8-372b-4d10-a38f-02bdb0651760</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BEC">
+      <description>NPN transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_Trim_US">
+      <description>Trim-potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_Trim_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MRA4007T3G">
+      <description>1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MRA4007T3G</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CH340C">
+      <description>USB serial converter, UART, SOIC-16</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH340C</field>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TXD" type="output"/>
+        <pin num="3" name="RXD" type="input"/>
+        <pin num="4" name="V3" type="passive"/>
+        <pin num="5" name="UD+" type="bidirectional"/>
+        <pin num="6" name="UD-" type="bidirectional"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="9" name="~{CTS}" type="input"/>
+        <pin num="10" name="~{DSR}" type="input"/>
+        <pin num="11" name="~{RI}" type="input"/>
+        <pin num="12" name="~{DCD}" type="input"/>
+        <pin num="13" name="~{DTR}" type="output"/>
+        <pin num="14" name="~{RTS}" type="output"/>
+        <pin num="15" name="R232" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_Espressif" part="ESP32-S3-WROOM-1">
+      <description>2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-S3-WROOM-1</field>
+        <field name="Footprint">Espressif:ESP32-S3-WROOM-1</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="GPIO4/TOUCH4/ADC1_CH3" type="bidirectional"/>
+        <pin num="5" name="GPIO5/TOUCH5/ADC1_CH4" type="bidirectional"/>
+        <pin num="6" name="GPIO6/TOUCH6/ADC1_CH5" type="bidirectional"/>
+        <pin num="7" name="GPIO7/TOUCH7/ADC1_CH6" type="bidirectional"/>
+        <pin num="8" name="GPIO15/U0RTS/ADC2_CH4/XTAL_32K_P" type="bidirectional"/>
+        <pin num="9" name="GPIO16/U0CTS/ADC2_CH5/XTAL_32K_N" type="bidirectional"/>
+        <pin num="10" name="GPIO17/U1TXD/ADC2_CH6" type="bidirectional"/>
+        <pin num="11" name="GPIO18/U1RXD/ADC2_CH7/CLK_OUT3" type="bidirectional"/>
+        <pin num="12" name="GPIO8/TOUCH8/ADC1_CH7/SUBSPICS1" type="bidirectional"/>
+        <pin num="13" name="GPIO19/U1RTS/ADC2_CH8/CLK_OUT2/USB_D-" type="bidirectional"/>
+        <pin num="14" name="GPIO20/U1CTS/ADC2_CH9/CLK_OUT1/USB_D+" type="bidirectional"/>
+        <pin num="15" name="GPIO3/TOUCH3/ADC1_CH2" type="bidirectional"/>
+        <pin num="16" name="GPIO46" type="bidirectional"/>
+        <pin num="17" name="GPIO9/TOUCH9/ADC1_CH8/FSPIHD/SUBSPIHD" type="bidirectional"/>
+        <pin num="18" name="GPIO10/TOUCH10/ADC1_CH9/FSPICS0/FSPIIO4/SUBSPICS0" type="bidirectional"/>
+        <pin num="19" name="GPIO11/TOUCH11/ADC2_CH0/FSPID/FSPIIO5/SUBSPID" type="bidirectional"/>
+        <pin num="20" name="GPIO12/TOUCH12/ADC2_CH1/FSPICLK/FSPIIO6/SUBSPICLK" type="bidirectional"/>
+        <pin num="21" name="GPIO13/TOUCH13/ADC2_CH2/FSPIQ/FSPIIO7/SUBSPIQ" type="bidirectional"/>
+        <pin num="22" name="GPIO14/TOUCH14/ADC2_CH3/FSPIWP/FSPIDQS/SUBSPIWP" type="bidirectional"/>
+        <pin num="23" name="GPIO21" type="bidirectional"/>
+        <pin num="24" name="GPIO47/SPICLK_P/SUBSPICLK_P_DIFF" type="bidirectional"/>
+        <pin num="25" name="GPIO48/SPICLK_N/SUBSPICLK_N_DIFF" type="bidirectional"/>
+        <pin num="26" name="GPIO45" type="bidirectional"/>
+        <pin num="27" name="GPIO0/BOOT" type="bidirectional"/>
+        <pin num="28" name="SPIIO6/GPIO35/FSPID/SUBSPID" type="bidirectional"/>
+        <pin num="29" name="SPIIO7/GPIO36/FSPICLK/SUBSPICLK" type="bidirectional"/>
+        <pin num="30" name="SPIDQS/GPIO37/FSPIQ/SUBSPIQ" type="bidirectional"/>
+        <pin num="31" name="GPIO38/FSPIWP/SUBSPIWP" type="bidirectional"/>
+        <pin num="32" name="MTCK/GPIO39/CLK_OUT3/SUBSPICS1" type="bidirectional"/>
+        <pin num="33" name="MTDO/GPIO40/CLK_OUT2" type="bidirectional"/>
+        <pin num="34" name="MTDI/GPIO41/CLK_OUT1" type="bidirectional"/>
+        <pin num="35" name="MTMS/GPIO42" type="bidirectional"/>
+        <pin num="36" name="U0RXD/GPIO44/CLK_OUT2" type="bidirectional"/>
+        <pin num="37" name="U0TXD/GPIO43/CLK_OUT1" type="bidirectional"/>
+        <pin num="38" name="GPIO2/TOUCH2/ADC1_CH1" type="bidirectional"/>
+        <pin num="39" name="GPIO1/TOUCH1/ADC1_CH0" type="bidirectional"/>
+        <pin num="40" name="GND" type="passive"/>
+        <pin num="41" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AZ1117-3.3">
+      <description>1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AZ1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>SOT?89*</fp>
+        <fp>TO?220*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AZ1117-3.3</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AZ1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="G5Q-1A">
+      <description>Omron G5Q relay, Miniature Single Pole, SPST-NO, 10A</description>
+      <docs>https://www.omron.com/ecb/products/pdf/en-g5q.pdf</docs>
+      <footprints>
+        <fp>Relay*SPST*Omron*G5Q*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G5Q-1A</field>
+        <field name="Footprint">Relay_THT:Relay_SPST_Omron-G5Q-1A</field>
+        <field name="Datasheet">https://www.omron.com/ecb/products/pdf/en-g5q.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/LED.kicad_sym</uri>
+    </library>
+    <library logical="PCM_Espressif">
+      <uri>C:\Users\wandy\OneDrive\Documentos\KiCad\7.0\3rdparty/symbols/com_github_espressif_kicad-libraries/Espressif.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Relay.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D4" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D5" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D6" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="5" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="/CHIP_PU">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="4" name="/D+">
+      <node ref="J2" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="5" pinfunction="UD+" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/D-">
+      <node ref="J2" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="6" pinfunction="UD-" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/DTR">
+      <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="~{DTR}" pintype="output"/>
+    </net>
+    <net code="7" name="/GPIO0">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="GPIO0/BOOT" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/GPIO_01">
+      <node ref="D3" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="U2" pin="39" pinfunction="GPIO1/TOUCH1/ADC1_CH0" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/GPIO_02">
+      <node ref="BT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="38" pinfunction="GPIO2/TOUCH2/ADC1_CH1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/GPIO_04">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GPIO4/TOUCH4/ADC1_CH3" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/GPIO_05">
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GPIO5/TOUCH5/ADC1_CH4" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/GPIO_06">
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GPIO6/TOUCH6/ADC1_CH5" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/GPIO_07">
+      <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GPIO7/TOUCH7/ADC1_CH6" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/GPIO_08">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="GPIO8/TOUCH8/ADC1_CH7/SUBSPICS1" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/GPIO_09">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="GPIO9/TOUCH9/ADC1_CH8/FSPIHD/SUBSPIHD" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/GPIO_10">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="GPIO10/TOUCH10/ADC1_CH9/FSPICS0/FSPIIO4/SUBSPICS0" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/GPIO_11">
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="GPIO11/TOUCH11/ADC2_CH0/FSPID/FSPIIO5/SUBSPID" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/GPIO_12">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="GPIO12/TOUCH12/ADC2_CH1/FSPICLK/FSPIIO6/SUBSPICLK" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/GPIO_13">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="GPIO13/TOUCH13/ADC2_CH2/FSPIQ/FSPIIO7/SUBSPIQ" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/GPIO_14">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="GPIO14/TOUCH14/ADC2_CH3/FSPIWP/FSPIDQS/SUBSPIWP" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/GPIO_15">
+      <node ref="BT2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="GPIO15/U0RTS/ADC2_CH4/XTAL_32K_P" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/GPIO_16">
+      <node ref="BT3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="GPIO16/U0CTS/ADC2_CH5/XTAL_32K_N" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/GPIO_17">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="GPIO17/U1TXD/ADC2_CH6" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/GPIO_18">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="GPIO18/U1RXD/ADC2_CH7/CLK_OUT3" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/GPIO_19">
+      <node ref="J8" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U2" pin="13" pinfunction="GPIO19/U1RTS/ADC2_CH8/CLK_OUT2/USB_D-" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/GPIO_20">
+      <node ref="J8" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U2" pin="14" pinfunction="GPIO20/U1CTS/ADC2_CH9/CLK_OUT1/USB_D+" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/GPIO_21">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/GPIO_38">
+      <node ref="BT4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="31" pinfunction="GPIO38/FSPIWP/SUBSPIWP" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/GPIO_39_TCK">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="32" pinfunction="MTCK/GPIO39/CLK_OUT3/SUBSPICS1" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/GPIO_40_TDO">
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U2" pin="33" pinfunction="MTDO/GPIO40/CLK_OUT2" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/GPIO_41_TDI">
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U2" pin="34" pinfunction="MTDI/GPIO41/CLK_OUT1" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/GPIO_42_TMS">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="35" pinfunction="MTMS/GPIO42" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/GPIO_45">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="26" pinfunction="GPIO45" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/GPIO_46">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="GPIO46" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/GPIO_47">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="GPIO47/SPICLK_P/SUBSPICLK_P_DIFF" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/GPIO_48">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="GPIO48/SPICLK_N/SUBSPICLK_N_DIFF" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/K1-in">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="/K1-out">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="3" pintype="passive"/>
+    </net>
+    <net code="39" name="/RTS">
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="~{RTS}" pintype="output"/>
+    </net>
+    <net code="40" name="/U0RXD">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="36" pinfunction="U0RXD/GPIO44/CLK_OUT2" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/U0TXD">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="37" pinfunction="U0TXD/GPIO43/CLK_OUT1" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/VBUS">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="43" name="/VBUS_OTG">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="44" name="/V_EXT">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="45" name="GND">
+      <node ref="BT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="BT2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="BT3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="BT4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="BZ1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D4" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D5" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D6" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J2" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J8" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J9" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="40" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="41" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="46" name="Net-(BZ1--)">
+      <node ref="BZ1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D3-DOUT)">
+      <node ref="D3" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D4" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(D4-DOUT)">
+      <node ref="D4" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D5" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(D5-DOUT)">
+      <node ref="D5" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D6" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D14-A)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(Q1-B)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(Q2-B)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(Q3-B)">
+      <node ref="Q3" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(U1-RXD)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(U1-TXD)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="62" name="Net-(U1-V3)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V3" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(U2-3V3)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="64" name="unconnected-(D6-DOUT-Pad2)">
+      <node ref="D6" pin="2" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="65" name="unconnected-(J2-ID-Pad4)">
+      <node ref="J2" pin="4" pinfunction="ID" pintype="passive"/>
+    </net>
+    <net code="66" name="unconnected-(J8-ID-Pad4)">
+      <node ref="J8" pin="4" pinfunction="ID" pintype="passive"/>
+    </net>
+    <net code="67" name="unconnected-(J9-Pin_10-Pad10)">
+      <node ref="J9" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="68" name="unconnected-(U1-NC-Pad7)">
+      <node ref="U1" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-NC-Pad8)">
+      <node ref="U1" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-R232-Pad15)">
+      <node ref="U1" pin="15" pinfunction="R232" pintype="input"/>
+    </net>
+    <net code="71" name="unconnected-(U1-~{CTS}-Pad9)">
+      <node ref="U1" pin="9" pinfunction="~{CTS}" pintype="input"/>
+    </net>
+    <net code="72" name="unconnected-(U1-~{DCD}-Pad12)">
+      <node ref="U1" pin="12" pinfunction="~{DCD}" pintype="input"/>
+    </net>
+    <net code="73" name="unconnected-(U1-~{DSR}-Pad10)">
+      <node ref="U1" pin="10" pinfunction="~{DSR}" pintype="input"/>
+    </net>
+    <net code="74" name="unconnected-(U1-~{RI}-Pad11)">
+      <node ref="U1" pin="11" pinfunction="~{RI}" pintype="input"/>
+    </net>
+    <net code="75" name="unconnected-(U2-GPIO3{slash}TOUCH3{slash}ADC1_CH2-Pad15)">
+      <node ref="U2" pin="15" pinfunction="GPIO3/TOUCH3/ADC1_CH2" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="unconnected-(U2-SPIDQS{slash}GPIO37{slash}FSPIQ{slash}SUBSPIQ-Pad30)">
+      <node ref="U2" pin="30" pinfunction="SPIDQS/GPIO37/FSPIQ/SUBSPIQ" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(U2-SPIIO6{slash}GPIO35{slash}FSPID{slash}SUBSPID-Pad28)">
+      <node ref="U2" pin="28" pinfunction="SPIIO6/GPIO35/FSPID/SUBSPID" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="unconnected-(U2-SPIIO7{slash}GPIO36{slash}FSPICLK{slash}SUBSPICLK-Pad29)">
+      <node ref="U2" pin="29" pinfunction="SPIIO7/GPIO36/FSPICLK/SUBSPICLK" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

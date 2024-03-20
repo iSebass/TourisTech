@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RA-02")(type "KiCad")(uri "C:/Users/usuario/Downloads/RA-02")(options "")(descr ""))
+  (lib (name "Connector_RJ")(type "KiCad")(uri "C:/Users/usuario/Downloads/Connector_RJ.pretty")(options "")(descr ""))
+)
