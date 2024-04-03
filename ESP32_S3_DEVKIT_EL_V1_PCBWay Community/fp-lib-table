@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "RA-02")(type "KiCad")(uri "C:/Users/usuario/Downloads/RA-02")(options "")(descr ""))
   (lib (name "Connector_RJ")(type "KiCad")(uri "C:/Users/usuario/Downloads/Connector_RJ.pretty")(options "")(descr ""))
+  (lib (name "ESO")(type "KiCad")(uri "C:/Users/usuario/Downloads/LIB_615006138421/615006138421/KiCad")(options "")(descr ""))
+  (lib (name "SWITCH SMD")(type "KiCad")(uri "C:/Users/usuario/Downloads/LIB_SLW-913535-2A-SMT/SLW-913535-2A-SMT/KiCad")(options "")(descr ""))
 )
